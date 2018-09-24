@@ -17,6 +17,12 @@ class Home extends Component {
         <Grid.Column width={8}>
           <Item.Group>
             <Friend />
+            <Friend />
+            <Friend />
+            <Friend />
+            <Friend />
+            <Friend />
+            <Friend />
           </Item.Group>
         </Grid.Column>
         <Grid.Column width={4}></Grid.Column>

@@ -1,6 +1,5 @@
 200.times do
-  name = Faker::FunnyName.two_word_name,
-
+  name = Faker::FunnyName.two_word_name
   Friend.create(
     name: name,
     location: Faker::HarryPotter.location,

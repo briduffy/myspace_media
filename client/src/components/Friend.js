@@ -28,9 +28,9 @@ class Friend extends React.Component {
     const friend = this.sample()
     if (friend) {
       return(
-        <Item>
+        <Item key={friend.id}>
           <Item.Content>
-            <Item.Header as='h1'>{friend.name}</Item.Header>
+            <Item.Meta>{friend.name}</Item.Meta>
             <Item.Meta as='h3'>{friend.location}</Item.Meta>
             <Item.Meta as='h3'>{friend.occupation}</Item.Meta>
             <Item.Meta as='h4'>
