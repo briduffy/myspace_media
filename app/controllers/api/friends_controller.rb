@@ -4,7 +4,7 @@ class Api::FriendsController < ApplicationController
   end
 
   def update
-    current_user.added_friends << params.[:id].to_i
+    current_user.added_friends << params[:id].to_i
     current_user.save
   end
 end
